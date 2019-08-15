@@ -207,7 +207,7 @@ service cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
     oneshot
 
 service nv_mac /vendor/bin/nv_mac
-    class late_start
+    class main
     user system
     group system inet net_admin wifi net_raw
     oneshot
