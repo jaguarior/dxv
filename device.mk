@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    audio.hearing_aid.default \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
     libldacBT_dec \
