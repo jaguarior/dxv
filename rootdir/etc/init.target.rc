@@ -100,8 +100,8 @@ on early-boot
 
 on boot
 
-    start rmt_storage
-    start rfs_access
+    start vendor.rmt_storage
+    start vendor.rfs_access
 
     # Touchpanel
     chown system system /sys/touchpanel/double_tap
