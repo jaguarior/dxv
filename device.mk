@@ -352,6 +352,7 @@ PRODUCT_PACKAGES += \
    DialerOverlayVayu \
    FrameworksResOverlayVayu \
    NotchBarKillerVayu \
+   SettingsLibOverlayVayu \
    SettingsOverlayVayu \
    SettingsProvidorOverlayVayu \
    SystemUIOverlayVayu \
