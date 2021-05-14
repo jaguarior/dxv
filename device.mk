@@ -107,7 +107,8 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libxml2 \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
-    GalleryGo
+    GalleryGo \
+    GoogleCameraGo
 
 PRODUCT_PACKAGES += \
     libshim_megvii
