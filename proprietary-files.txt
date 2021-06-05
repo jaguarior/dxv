@@ -371,6 +371,9 @@ vendor/bin/hvdcp_opti|e03e8467d6f5dbfe2d099a7eafde8efa552bf9ff
 vendor/etc/init/init.batterysecret.rc|218076e183706abcf32b762148169cab7a1d337d
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 
+# Charging daemon
+bin/charger
+
 # CNE - from vayu
 -vendor/app/CneApp/CneApp.apk|38c4ec4384a28992a23565475bb37b430525a75b
 vendor/bin/cnd|465e851c095c92d524a91072557c8d8a6e6691af
