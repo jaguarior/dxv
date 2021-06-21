@@ -110,6 +110,10 @@ on post-fs-data
     mkdir /data/vendor/thermal/config 0771 root system
     chown system system /sys/class/thermal/thermal_message/sconfig
 
+    # Allow system to adjust haptic level directly
+    chown system system /sys/module/qti_haptics/parameters/level
+    chmod 0664 /sys/module/qti_haptics/parameters/level
+
 on early-boot
     start vendor.sensors
 

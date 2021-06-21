@@ -29,3 +29,7 @@ allow devicesettings_app {
 
 get_prop(devicesettings_app, deviceparts_prop)
 set_prop(devicesettings_app, deviceparts_prop)
+
+# Allow xiaomi_settings to read and write to sysfs_vibrator
+allow devicesettings_app sysfs_vibrator:dir search;
+allow devicesettings_app sysfs_vibrator:file rw_file_perms;
