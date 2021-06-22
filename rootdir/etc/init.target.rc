@@ -114,6 +114,10 @@ on post-fs-data
     chown system system /sys/module/qti_haptics/parameters/level
     chmod 0664 /sys/module/qti_haptics/parameters/level
 
+    # Allow system to read measured_fps
+    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
+    chmod 0444 /sys/class/drm/sde-crtc-0/measured_fps
+
 on early-boot
     start vendor.sensors
 
