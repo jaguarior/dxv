@@ -28,10 +28,18 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
 # Media
+<<<<<<< HEAD:properties/system.prop
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=131071999
 debug.stagefright.ccodec=1
+=======
+debug.media.codec2=2 
+debug.stagefright.ccodec=4
+debug.stagefright.omx_default_rank=512
+vendor.media.omx=0
+debug.stagefright.c2inputsurface=-1
+>>>>>>> 269004fb (vayu: Migrate to media codecs c2):system.prop
 
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true

@@ -181,6 +181,7 @@ vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 
+<<<<<<< HEAD:properties/vendor.prop
 # Listen
 ro.vendor.audio.soundtrigger=sva
 ro.vendor.audio.soundtrigger.cnn.adsp.level=27
@@ -219,6 +220,10 @@ persist.vendor.ims.disableQXDMLogs=1
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
+=======
+# OTG
+persist.sys.oem.otg_support=true
+>>>>>>> 269004fb (vayu: Migrate to media codecs c2):vendor.prop
 
 # PASR
 vendor.power.pasr.enabled=false
