@@ -432,7 +432,6 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a585
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
 # IMS - from vayu
--system_ext/priv-app/ims/ims.apk|b8f6da437eaa8d89f937339e4d97e02e63b5fc5c
 system_ext/lib64/lib-imsvideocodec.so|6ff4cd7e90c533fbe1d1546214fadcdade27d5af
 system_ext/lib64/lib-imsvt.so|54a989105eebdb9747b215ae23551ec2507541e6
 system_ext/lib64/lib-imsvtextutils.so|7fe2cf5ac5f84c3c61b4458099efcf900801c2e2
@@ -487,6 +486,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|037c6a7ee282b3a08af1f0e735543bedb27
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|d6bf98233939a7516b4a6cfaebd079eddcc81c60
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|c3be855f28ceb58ebf7c7055e7f068ed6f132b40
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|653cd6cae81499a416d97b9fb920ddcb2816c8a9
+
+# IMS - from LA.UM.9.1.r1-10200-SMxxx0.0 (Custom)
+-system_ext/priv-app/ims/ims.apk|7465bb4174bf455e1e1abe13990e14003aa848d2
 
 # IO prefetcher - from vayu
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|df327ba58f5de3291c8cbfce55a22b07e34a2b52
