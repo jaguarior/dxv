@@ -341,6 +341,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     android.hardware.power.stats@1.0-service.mock
 
+# Properties
+include $(LOCAL_PATH)/default.mk
+
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
