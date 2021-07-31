@@ -256,12 +256,14 @@ vendor/etc/init/qseecomd.rc|9c3b9c649e2bb8959b14d0e1278a390ddb15dc5e
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|82ab2c21730099498c7c63105b32cbe485aa9462
+vendor/lib/libpvr.so|a1f1896b9f50223a9285d3496b8f9bcfa98d004d
 vendor/lib64/libcpion.so|4c718f3e8413f67b316aed0b8491a685681825af
 vendor/lib64/libdrmfs.so|622e74033bfe9f07d4686a936367b620fcdb3a7c
 vendor/lib64/libdrmtime.so|012ce75364db4108ca811f730cb2add4d2c32c45
 vendor/lib64/libGPreqcancel.so|7e47b162a5baa4570a8f53f4d4451fd57c391210
 vendor/lib64/libGPreqcancel_svc.so|35b71c1ff3816de1089901d3b32af39ece4c315c
 vendor/lib64/libops.so|bfca36a39fad0098bc1fef91f0879c17230dd037
+vendor/lib64/libpvr.so|cbbe058bf1acb4d688086a33d59a8023d6a24799
 vendor/lib64/libqisl.so|4a2f72346c7f4b3368b88582da7cc7487a3be5ce
 vendor/lib64/libQSEEComAPI.so|835aca441f1cafc0be2d7df9bffe11d9b1534e35
 vendor/lib64/librpmb.so|242742ba92bab2c67d66fe581fc83d9d1c5e8ad6
@@ -319,7 +321,6 @@ vendor/lib/libgsl.so|3e919532b22d1ba53a9f6141fdb3a9fbd1901f43
 vendor/lib/libllvm-glnext.so|caf1127450a30dfd034398cf142525f505071944
 vendor/lib/libllvm-qcom.so|f7ee34774bbdb3e01a5ecaf9e98ac8f924b710f9
 vendor/lib/libOpenCL.so|a8a3952c475cf214fec74c324e540ee800ee9727
-vendor/lib/libpvr.so|a1f1896b9f50223a9285d3496b8f9bcfa98d004d
 vendor/lib/libVkLayer_q3dtools.so|c9953ac8a64b9b9a31173c56812bead633a7d379
 vendor/lib64/egl/eglSubDriverAndroid.so|c950953ab821212322c44497c40f7bec912620a7
 vendor/lib64/egl/libEGL_adreno.so|066dc49939ceec71978268737f3a32c8f2aeddf2
@@ -337,7 +338,6 @@ vendor/lib64/libgsl.so|e8bcce903c5b03799a8e6c0c868efc0e2c356167
 vendor/lib64/libllvm-glnext.so|49d28aaf3f7fa559e29a6735ca74cffb20e8eabd
 vendor/lib64/libllvm-qcom.so|ac78556c1a76cd9a7033d775e8f1ba4393b630df
 vendor/lib64/libOpenCL.so|688a3a5f3fbece3eddc031e326aa0e3a7e58a091
-vendor/lib64/libpvr.so|cbbe058bf1acb4d688086a33d59a8023d6a24799
 vendor/lib64/libVkLayer_q3dtools.so|5ddfe2401db02f851d6472a7ba57c5fc67923675
 
 # Graphics (Adreno firmware) - from vayu
