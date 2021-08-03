@@ -234,6 +234,7 @@ vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin|315f9774085f123455b0065c26331a9
 vendor/etc/camera/LDC_table_src1.dat|3ddd32f590504da34cda3ee1f4a9f6c8a5266525
 vendor/etc/camera/model_back.dlc|823332124cc163bced8b02afbe8cf0e4e5f05da8
 vendor/etc/camera/model_front.dlc|3611a0bf4af5ebbfd32963b11786fc35a64d247c
+vendor/etc/camera/model_front_mibokeh_video.dlc|d8d19659ecc2c22fab038ecfa9aba684cca3a481
 vendor/etc/camera/morpho_lowlight4.0.xml|af4c42e7b05371ab96a6773db955819481fa78b6
 vendor/etc/camera/morpho_lowlight4.0_3hdr.xml|00194b640a010429562406f0d0a047b4ed9d74fa
 vendor/etc/camera/morpho_lowlight4.0_adrc_high.xml|d6c4a677228eb90a10d1728faa940ac37e88b6eb
