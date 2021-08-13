@@ -375,6 +375,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.zram \
     init.nfc.rc \
+    init.performance_level.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
