@@ -66,12 +66,6 @@ vendor/lib/liba2dpoffload.so|f8d75731a7b7763f71dde5d88963a9fd85625327
 vendor/lib/libaudio_log_utils.so|71ec4d31ad6c9e9a4bee8db7b5ab55b70ef7c4c3
 vendor/lib/libaudioroute_ext.so|700ee2c82d6a8521ba0769a17c3c181c6b0d079d
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|188bfa1f6971a76651e585805698390638e35b4b
-vendor/lib64/hw/audio.primary.msmnile.so|3a0bbd12a032a51f286e22af05267a4d31a5f543
-vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|fcc2380cf4a57bcc6e7a30ed2545fb720d135c6a
-vendor/lib64/liba2dpoffload.so|5721e2d0ef78be815e9958960ba7b10bff9bb003
-vendor/lib64/libaudio_log_utils.so|6091c30d5724adb31a3b4c71379cc004c235905a
-vendor/lib64/libaudioroute_ext.so|3a71356d907363ef70ad027c850cdeedde717c16
-vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so|9a79f351d4dbe9847b9054ff91782215c053d391
 
 # Audio libraries - from vayu
 vendor/lib/soundfx/libasphere.so|44cd20e13920888b29d3b2e4bb0b2559a746bf8f
