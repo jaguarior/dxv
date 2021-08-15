@@ -1,4 +1,6 @@
-
 # QCOM
 persist.vendor.dpm.feature=1    
 persist.vendor.dpm.nsrm.bkg.evt=3955
+# DeviceParts
+persist.device_parts.lcd.cabc_mode=1
+
