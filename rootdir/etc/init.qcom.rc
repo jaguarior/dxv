@@ -682,10 +682,3 @@ service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@
     onrestart restart surfaceflinger
     writepid /dev/cpuset/system-background/tasks
     socket pps stream 0660 system system
-
-# nv_mac is added by Xiaomi-Wifi
-service nv_mac /vendor/bin/nv_mac
-    class late_start
-    user system
-    group system inet net_admin wifi net_raw
-    oneshot
