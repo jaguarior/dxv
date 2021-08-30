@@ -154,6 +154,7 @@ persist.backup.ntpServer=0.pool.ntp.org
 # Graphics
 debug.egl.hw=0
 debug.sf.disable_backpressure=1
+debug.sf.enable_hwc_vds=1
 debug.sf.hw=0
 persist.sys.sf.native_mode=0
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.msmnile.api30
@@ -169,6 +170,11 @@ vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_default_color_mode=0
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
+
+# HVDCP
+persist.vendor.cp.taper_term_mv=7000
+persist.vendor.cp.fcc_main_ua=400000
+persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
 
 # Media
 debug.stagefright.ccodec=1
