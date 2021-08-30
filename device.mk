@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.primary.msmnile \
     audio.r_submix.default \
-    audio.usb.default \
+    audio.usb.default
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
@@ -321,7 +321,7 @@ PRODUCT_PACKAGES += \
     libchrome.vendor \
     NfcNci \
     SecureElement \
-    Tag \
+    Tag
 
 # OMX
 PRODUCT_PACKAGES += \
