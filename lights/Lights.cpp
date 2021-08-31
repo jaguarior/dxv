@@ -27,7 +27,7 @@ namespace android {
 namespace hardware {
 namespace light {
 
-#define LED_PATH(led)                       "/sys/class/leds/" led "/"
+#define LED_PATH(led) "/sys/class/leds/" led "/"
 
 static const std::string led_paths[] {
     [RED] = LED_PATH("red"),

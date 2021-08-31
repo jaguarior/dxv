@@ -225,7 +225,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msmnile
+    android.hardware.biometrics.fingerprint@2.1-service.vayu
 
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
@@ -276,7 +276,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.xiaomi_msmnile
+    android.hardware.lights-service.vayu
 
 # LiveDisplay
 PRODUCT_PACKAGES += \

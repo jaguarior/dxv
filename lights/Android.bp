@@ -1,8 +1,8 @@
 cc_binary {
-    name: "android.hardware.lights-service.xiaomi_msmnile",
+    name: "android.hardware.lights-service.vayu",
     relative_install_path: "hw",
-    init_rc: ["lights-xiaomi_msmnile.rc"],
-    vintf_fragments: ["lights-xiaomi_msmnile.xml"],
+    init_rc: ["lights-vayu.rc"],
+    vintf_fragments: ["lights-vayu.xml"],
     vendor: true,
     shared_libs: [
         "libbase",
