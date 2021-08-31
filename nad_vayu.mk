@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 TARGET_USES_BLUR := true
-USE_PIXEL_CHARGING := true
+NAD_BUILD_TYPE := OFFICIAL
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
