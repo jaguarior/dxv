@@ -58,5 +58,6 @@ static const std::vector<variant_info_t> variants = {
 };
 
 void vendor_load_properties() {
+    set_dalvik_heap();
     search_variant(variants);
 }
