@@ -294,6 +294,9 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # OMX
 PRODUCT_PACKAGES += \
     init.qti.media.sh \

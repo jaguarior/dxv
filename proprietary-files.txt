@@ -826,8 +826,6 @@ vendor/lib64/unnhal-acc-hta.so|2c19cdff7531b8850dac8a305b6d940129d2e85d
 vendor/lib64/unnhal-acc-hvx.so|3c8f0043ef20d9555dfb6da2578043c0b3923a6f
 
 # NFC - from vayu
-vendor/etc/libnfc-nci.conf|b9536ba10090d460df8a332331225cd279619583
-vendor/etc/libnfc-nxp.conf|de7006d8e7558af82b220a18d85883417f9e7002
 vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
 
 # OMX - from vayu
