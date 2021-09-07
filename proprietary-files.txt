@@ -159,8 +159,7 @@ vendor/lib64/camera/fdconfigpreview.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib64/camera/fdconfigpreviewlite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib64/camera/fdconfigvideo.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib64/camera/fdconfigvideolite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
-vendor/lib64/hw/camera.qcom.so|7068d104bb845644d462e8d13a876a4ae566dc5e
-vendor/lib64/hw/com.qti.chi.override.so|c549e023e1ea18f52bf7bd089bd6009452ffbc4e
+vendor/lib64/hw/camera.qcom.so|ea30f7bbab60fe63562de59b609d55f86ccc75a6
 vendor/lib64/hw/com.qti.chi.override.so|c549e023e1ea18f52bf7bd089bd6009452ffbc4e
 vendor/lib64/lib_sr_models.so|38ce1c97e41860b4c6c068af863fc6f565b9c088
 vendor/lib64/libalAILDC.so|cd3436990cf35dfa6592074a413b3b9fd0660ca6
@@ -343,7 +342,7 @@ vendor/etc/camera/vidhance_calibration|958b1391977b23f340e9b04c2fcf8b6142b81a7f
 vendor/etc/camera/visidon_clearshot_params_algoup.xml|ee064b324f3e4369a2d081b774076d2b71f6246a
 
 # Camera configs - from vayu-user 11 RKQ1.200826.002 V12.0.6.0.RJUMIXM release-keys
-vendor/etc/camera/sr_params.xml|54916114dbd2dc99c15dde18feab87159b27128e
+vendor/etc/camera/sr_params.xml|f83901324b80bc1e1af2751e1bb4d95b01977f6e
 
 # Camera firmware - from vayu
 vendor/firmware/CAMERA_ICP.elf|60a310efffb18a1100477d80f6e9a9084baca85a
@@ -371,8 +370,8 @@ vendor/bin/hvdcp_opti|e03e8467d6f5dbfe2d099a7eafde8efa552bf9ff
 vendor/etc/init/init.batterysecret.rc|218076e183706abcf32b762148169cab7a1d337d
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 
-# Charging daemon
-bin/charger
+# Charging daemon - from Xiaomi
+bin/charger|cd1bd34c8736ca3612067776fb9914441bdc93c7
 
 # CNE - from vayu
 -vendor/app/CneApp/CneApp.apk|38c4ec4384a28992a23565475bb37b430525a75b
@@ -1146,7 +1145,7 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|4e82e146df4fa2fbd5963dc28d
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|f98b5eef4e9851ee4ff9546685e9c2fc2ba9e35a
 
 # Thermal - from vayu
-vendor/bin/mi_thermald|03a3ab9aaca6cc67e51daa9a7023dd7a2477c963
+vendor/bin/mi_thermald|ad7a7860361824ee93e6a828f932ccf2ba144910
 vendor/etc/init/init.mi_thermald.rc|434b0cc0cb28b84255e5415d66b07cc75a4e9af1
 
 # Thermal engine - from vayu
