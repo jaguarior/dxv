@@ -1062,6 +1062,9 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd71
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb48906b37885e060429f79c9fd6bdbf
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
 
+# RIL - from qssi_NX629J-user-11-RKQ1.200826.002-nubia.20210822.000617-release-keys
+system_ext/framework/qti-telephony-common.jar|1c85524fa91e1e470d30890457616d6e0154fe77
+
 # Sensors - from vayu
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service|3ee540b093d238f736b892b3502f645910d8ecd8
 vendor/bin/sensors.qti|184d8b126065a28e3bfed50bfcdfd81d625a511d
