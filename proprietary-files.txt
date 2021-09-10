@@ -1181,14 +1181,6 @@ vendor/bin/time_daemon|0def9165831d91241cd011abafc0a106f69bd06e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|c9070f25aa132707705523ddaab522b88c22923f
 
-# Touch Feature - from vayu
-vendor/lib/vendor.xiaomi.hardware.touchfeature@1.0.so|d7aa31e900e63ed84c344e2156d7a8b86da18eb1
-vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so|775d077241f75cb12b75fe1ceae9e899b2c41072
-vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service|f1cfba1d3fc5e20cc1e6f1acf8035ba396ede8e9
-vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so|f988e20619b451bdfc3e8db41da3cb078fce1290
-vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so|7a35c399fb2aba2d2edae4d8ccbb21578defd9ff
-vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc|3def34d082c4b5e1e31ce769473bcb46cf26fb8d
-
 # Trusted Execution Environment connector - from vayu
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|1e81ee7975db430cc1ccd6ec9cb9817ac205b60c
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
