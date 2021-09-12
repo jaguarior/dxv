@@ -95,6 +95,12 @@ case "$target" in
     # wsf Range : 1..1000 So set to bare minimum value 1.
     echo 1 > /proc/sys/vm/watermark_scale_factor
 
+    echo 0-2 > /dev/cpuset/background/cpus
+    echo 0-3 > /dev/cpuset/system-background/cpus
+    echo 4-7 > /dev/cpuset/foreground/boost/cpus
+    echo 0-2,4-7 > /dev/cpuset/foreground/cpus
+    echo 0-7     > /dev/cpuset/top-app/cpus
+
     # Enable bus-dcvs
     for device in /sys/devices/platform/soc
     do
