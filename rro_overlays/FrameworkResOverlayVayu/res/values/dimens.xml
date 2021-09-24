@@ -22,4 +22,13 @@
     <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
     <dimen name="rounded_corner_radius_top">94.0px</dimen>
     <dimen name="status_bar_height_portrait">91.0px</dimen>
+
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_needCustomFODView">true</bool>
+
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+
+    <!-- Gaming Mode FPSInfoService FPS node file path -->
+    <string name="config_gamingmode_fpsInfoSysNode" translatable="false">/sys/class/drm/card0/sde-crtc-0/measured_fps</string>
 </resources>
