@@ -17,7 +17,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 ANDROID_ROOT="${MY_DIR}/../../.."
 
-HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
+HELPER="${ANDROID_ROOT}/vendor/syberia/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -81,9 +81,9 @@ function blob_fixup() {
             sed -i "s|ug_cpu|ug_uwu|g" "${2}"
             ;;
         vendor/lib64/hw/camera.qcom.so)
-            $PATCHELF_TOOL --remove-needed "libMegviiFacepp-0.5.2.so" "${2}"
-            $PATCHELF_TOOL --remove-needed "libmegface.so" "${2}"
-            $PATCHELF_TOOL --add-needed "libshim_megvii.so" "${2}"
+            patchelf --remove-needed "libMegviiFacepp-0.5.2.so" "${2}"
+            patchelf --remove-needed "libmegface.so" "${2}"
+            patchelf --add-needed "libshim_megvii.so" "${2}"
             ;;
     esac
 }
