@@ -11,10 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit common ArrowOS configurations
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit common Havoc-OS configurations
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-PRODUCT_NAME := arrow_vayu
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_GAPPS_ARCH := arm64
+HAVOC_BUILD_TYPE := HOMEMADE
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+PRODUCT_NAME := havoc_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro
