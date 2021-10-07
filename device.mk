@@ -377,8 +377,7 @@ PRODUCT_PACKAGES += \
    SettingsProviderOverlayVayu \
    SystemUIOverlayVayu \
    TelephonyOverlayVayu \
-   TetheringConfigOverlayVayu \
-   WifiOverlayVayu
+   WifiResCommonVayu
 
 # Power
 PRODUCT_PACKAGES += \
