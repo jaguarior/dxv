@@ -23,6 +23,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# HALs
+SRC_AUDIO_HAL_DIR := $(DEVICE_PATH)/qcom-caf/audio
+SRC_DISPLAY_HAL_DIR := $(DEVICE_PATH)/qcom-caf/display
+SRC_MEDIA_HAL_DIR := $(DEVICE_PATH)/qcom-caf/media
+
+# Hardware
+PRODUCT_BOARD_PLATFORM := sm8150
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
@@ -419,7 +428,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/qcom-caf
 
 # Telephony
 PRODUCT_PACKAGES += \
