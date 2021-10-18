@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "NusantaraROM-Devices/vendor_xiaomi_vayu",
+    "revision": "12",
+    "target_path": "vendor/xiaomi/vayu"
+  },
+  {
+    "repository": "nullxception/kernel_xiaomi_vayu",
+    "revision": "eleven",
+    "target_path": "kernel/xiaomi/vayu"
+  },
+  {
+    "repository": "NusantaraProject-ROM/android_hardware_xiaomi",
+    "revision": "11",
+    "target_path": "hardware/xiaomi"
+  }
+]
