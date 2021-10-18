@@ -8,18 +8,19 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-TARGET_USES_BLUR := true
-NAD_BUILD_TYPE := OFFICIAL
-
 # Inherit some common stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+
+OCTAVI_DEVICE_MAINTAINER := verzogern
 
 # Inherit from vayu device
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
-PRODUCT_NAME := nad_vayu
+PRODUCT_NAME := octavi_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
