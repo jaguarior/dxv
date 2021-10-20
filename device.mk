@@ -24,9 +24,9 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # HALs
-SRC_AUDIO_HAL_DIR := $(DEVICE_PATH)/qcom-caf/audio
-SRC_DISPLAY_HAL_DIR := $(DEVICE_PATH)/qcom-caf/display
-SRC_MEDIA_HAL_DIR := $(DEVICE_PATH)/qcom-caf/media
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/media
 
 # Hardware
 PRODUCT_BOARD_PLATFORM := sm8150
