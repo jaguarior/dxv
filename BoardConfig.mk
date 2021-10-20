@@ -74,9 +74,9 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 BOARD_HAVE_QCOM_FM := true
 
 # HALs
-DEVICE_SPECIFIC_AUDIO_PATH := $(DEVICE_PATH)/qcom-caf/audio
-DEVICE_SPECIFIC_DISPLAY_PATH := $(DEVICE_PATH)/qcom-caf/display
-DEVICE_SPECIFIC_MEDIA_PATH := $(DEVICE_PATH)/qcom-caf/media
+DEVICE_SPECIFIC_AUDIO_PATH := hardware/qcom-caf/audio
+DEVICE_SPECIFIC_DISPLAY_PATH := hardware/qcom-caf/display
+DEVICE_SPECIFIC_MEDIA_PATH := hardware/qcom-caf/media
 
 # Input
 TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 304
